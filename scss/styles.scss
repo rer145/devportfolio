@@ -48,6 +48,8 @@ $border: #dcd9d9;
 $heading: #374054;
 $text: #74808a;
 
+$pmargin: 10px;
+
 /*
     ---------------------
     ----- 2. Mixins -----
@@ -122,6 +124,7 @@ body {
                 color: $text;
                 font-size: 0.9em;
                 margin: 0;
+                margin-bottom: $pmargin;
             }
         }
 
@@ -244,6 +247,7 @@ footer {
 
     p {
         margin: 0;
+        margin-bottom: $pmargin;
         color: $text;
     }
 }
@@ -456,6 +460,7 @@ footer {
     p {
         color: $text;
         margin: 0;
+        margin-bottom: $pmargin;
     }
 }
 
@@ -479,6 +484,11 @@ footer {
     margin: 30px auto 0 auto;
     position: relative;
     max-width: 1000px;
+    
+    li {
+        color: $text;
+        font-size: 0.9em;
+    }
 
     &:before {
         position: absolute;
@@ -532,6 +542,7 @@ footer {
         color: $text;
         font-size: 0.9em;
         margin: 0;
+        margin-bottom: $pmargin;
     }
 }
 
@@ -672,6 +683,7 @@ footer {
         color: $text;
         margin: 0 0 15px 0;
         font-size: 0.9em;
+        margin-bottom: $pmargin;
     }
 }
 
@@ -900,6 +912,7 @@ footer {
 
         p {
             text-align: left;
+            margin-bottom: $pmargin;
         }
     }
 
